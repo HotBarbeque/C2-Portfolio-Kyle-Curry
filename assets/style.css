@@ -105,9 +105,10 @@ html body img {
     display: flex;
 }
 
-/*adjustment of header sizes*/
+/*adjustment of header sizes and position*/
 h1 {
-    font-size: 300%;    
+    font-size: 300%;
+    margin-left: 20px;  
 }
 
 h2 {
@@ -142,3 +143,12 @@ h2 {
     width: 400px;
   }
 
+  /*adjustment of title position and characteristics for Work Images*/
+.title {
+    display: table;
+    position: relative;
+    top: -75px;
+    left: 20px;
+    background-color: var(--navy);
+    color: var(--white);
+}
