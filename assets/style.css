@@ -119,6 +119,7 @@ h2 {
 /*Flex box targeting of work images and effects of specific children*/
 .Work_Mee {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     background: var(--white);
   }
@@ -136,12 +137,12 @@ h2 {
   
   .child:first-child {
     width: 100%;
-    flex: 1 0 1;
+    flex: 1 0;
   }
   
   .child:not(:first-child) {
-    flex: 1 0 0;
-    width: 400px;
+    flex: 0 0;
+    width: 100px;
   }
 
   /*adjustment of title position and characteristics for Work Images*/
